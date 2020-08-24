@@ -1,1 +1,3 @@
-# rdip
+# Using fork
+
+Only the owner of a project can make changes in the project. If someone else wants to experiment with the project then he can do so by using fork. Basically fork makes a copy of the repository under your github account. To fork a repository we have to click on the fork option on the repository which we want a copy of, then we can clone it in our machine and can run it, make changes to it or whatever we want. When we run the push command it makes changes in the copy of repository that we have leaving the original repository untouched. We can submit a pull request to the project owner in order to request the owner to make changes in the original repository.
