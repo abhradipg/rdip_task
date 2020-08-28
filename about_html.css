@@ -8,6 +8,7 @@ margin:1rem;
 #title{
   font-size:1.5rem;
   color:#831113;
+  padding:.25rem;
 }
 html{
   font-family:serif;
