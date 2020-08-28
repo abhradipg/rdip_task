@@ -1,0 +1,9 @@
+body{
+  background-image:url('photo-1579546929518-9e396f3cc809.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+}
