@@ -2,7 +2,7 @@ body{
   background-color:#afddcf;
 }
 img{
-float:left;
+display:none;
 margin:1rem;
 }
 #title{
