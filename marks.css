@@ -1,7 +1,12 @@
 table, td, th {
   border:1px solid black;
   border-collapse:collapse;
+  font-size:1.5rem;
+  padding:.5rem;
 }
 table{
   outline-style:solid;
+}
+#head{
+  text-decoration:underline;
 }
