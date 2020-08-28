@@ -16,3 +16,7 @@ table{
 .second{
   text-align:right;
 }
+tr:nth-child(even) 
+{
+   background-color: #ee30a0;
+}
