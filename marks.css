@@ -10,3 +10,9 @@ table{
 #head{
   text-decoration:underline;
 }
+.first{
+  text-align:left;
+}
+.second{
+  text-align:right;
+}
