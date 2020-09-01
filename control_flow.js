@@ -2,13 +2,19 @@ function checkno(){
   var number=document.querySelectorAll('input[name="no"]');
   var message=document.getElementById("message");
   message.innerHTML="";
-  if(number[0].value>9 && number[0].value<101)
-   {
-      generate_fibo(number[0].value); 
-    }
+  try{
+    if(number[0].value<10)
+      throw "too low";
+    else if(number[0].value>100)
+      throw "too high";
    else{
-   message.innerHTML="Enter number in specified range";
+     generate_fibo(number[0].value); 
     }
+   }
+   catch(err)
+    {
+      message.innerHTML=err;
+     }
 }
 
 function generate_fibo(number){
