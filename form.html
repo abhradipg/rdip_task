@@ -3,11 +3,12 @@
   <head>
      <title>form</title>
      <link rel="stylesheet" href="bgimage.css">
+     <script src="validate.js"></script>
   </head>
   <body>
      <fieldset>
         <legend>Registration form:</legend>
-        <form action="register" method="get">
+        <form action="register" onsubmit="return validateform()" method="get">
         <label for="name">Name:</label>
         <input id="name" type="text"><br>
         <label for="phone">Phone:</label>
