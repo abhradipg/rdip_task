@@ -4,6 +4,7 @@
     <title>Abhradip</title>
     <link rel="stylesheet" href="about_html.css">
     <script src="about_html.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </head>
   <body>
    <div id="image">
@@ -17,6 +18,7 @@
 
    <h3><b>Stream:</b><a href="lists.html">Electronics And Communication Engineering</a></h3>
    </div>
+   <button>hide/show</button>
    <div id="main">
    <nav>
       <ul>
@@ -48,5 +50,18 @@
    </p>
    </div>
    </div>
+<script>
+var show=1;
+$( "button" ).click(function() {
+  if(show==1){
+  show=0;
+  $( "#info" ).hide( "slow" );}
+ else
+  {
+  show=1;
+  $( "#info" ).show( "slow" );
+    }
+});
+</script>
   </body>
 </html>
