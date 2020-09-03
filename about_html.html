@@ -18,7 +18,8 @@
 
    <h3><b>Stream:</b><a href="lists.html">Electronics And Communication Engineering</a></h3>
    </div>
-   <button>hide/show</button>
+   <button id="hide">hide/show</button>
+   <button id="fade">fadein/fadeout</button>
    <div id="main">
    <nav>
       <ul>
@@ -51,16 +52,11 @@
    </div>
    </div>
 <script>
-var show=1;
-$( "button" ).click(function() {
-  if(show==1){
-  show=0;
-  $( "#info" ).hide( "slow" );}
- else
-  {
-  show=1;
-  $( "#info" ).show( "slow" );
-    }
+$( "#hide" ).click(function() {
+  $( "#info" ).toggle( "slow" );
+});
+$( "#fade" ).click(function() {
+  $( "#info" ).fadeToggle( "slow" );
 });
 </script>
   </body>
